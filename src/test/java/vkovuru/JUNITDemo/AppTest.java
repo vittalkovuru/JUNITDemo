@@ -1,5 +1,7 @@
 package vkovuru.JUNITDemo;
 
+import static org.junit.Assert.assertTrue;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -35,4 +37,10 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void simpleTest() {
+		int a = 1;
+		int b = 2;
+	 	assertTrue(a+b  == 3);
+	}
 }
